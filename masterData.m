@@ -1,3 +1,8 @@
+%Loops through the boundaries and images and creates a cell which contains matrices in which
+%the first row represents the point of the border in the original boundary image
+%the second and third rows represent the y and x values (wrt the bottom left corner) respectively
+%the fourth row representing curvature
+%the fifth row representing protein expression
 fname = "/home/john/Documents/BiophysicsUROP2/MAX_Actin_All.tif";
 info = imfinfo(fname);
 
