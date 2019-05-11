@@ -2,8 +2,8 @@ fname = "/home/john/Documents/BiophysicsUROP2/MAX_Actin_All.tif";
 info = imfinfo(fname);
 
 num_images = numel(info);
-dataArray = cell(1, 286);
-for kk = 1:286
+dataArray = cell(1, num_images);
+for kk = 1:num_images
     tic;
     fname = "/home/john/Documents/BiophysicsUROP2/MAX_Actin_All.tif";
     info = imfinfo(fname);
