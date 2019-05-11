@@ -1,3 +1,4 @@
+%This function kind of assumes that dataArray from masterData is saved in your workspace
 c = zeros(4000, size(dataArray, 2));
 for kk = 1:size(dataArray, 2)
 a = dataArray{kk};
