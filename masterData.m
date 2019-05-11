@@ -1,7 +1,5 @@
 fname = "/home/john/Documents/BiophysicsUROP2/MAX_Actin_All.tif";
 info = imfinfo(fname);
-%A = Tiff("/home/john/Documents/BiophysicsUROP2/MAX_Actin_All.tif", 'r');
-%imageData = read(A);
 
 num_images = numel(info);
 dataArray = cell(1, 286);
