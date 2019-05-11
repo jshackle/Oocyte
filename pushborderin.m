@@ -1,6 +1,4 @@
-%Should make the border one pixel thick
-%Imfills at center of circle (512, 512) and keeps all points the new points
-%generated touch
+%Pushes border inwards
 function [imageData] = pushborderin(imageData)
 length = size(imageData, 1);
 ogpoints = find(imageData == 1).';
